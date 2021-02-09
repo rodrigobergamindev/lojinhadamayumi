@@ -19,7 +19,7 @@ const ContainerHeader = styled(Container)`
 
     margin-top: 50px;
     font-size: 1.1em;
-    color:#EA2027;
+    color:#ff4d4d;
     text-align: center;
     font-family: 'Jaldi', sans-serif;
     flex-direction:column;
@@ -28,9 +28,9 @@ const ContainerHeader = styled(Container)`
     li {
         padding-top: 20px;
         background-color: transparent,
-        border: 1px solid #EA2027,
+        border: 1px solid #ff4d4d,
         border-radius: 50,
-        color: #EA2027,
+        color: #ff4d4d,
         height: 48,
         padding: 30px,
         width: 350,
@@ -41,22 +41,22 @@ const ContainerHeader = styled(Container)`
 
     h7 {
         margin-bottom: 30px;
-        color: #EA2027;
+        color: #ff4d4d;
     }
 
     footer {
         margin-top: 40px;
         font-size: 0.6em;
         font-family: 'Roboto', serif;
-        color: #EA2027;
+        color: #ff4d4d;
     }
 
     a:visited {
-        color: #EA2027;
+        color: #ff4d4d;
     }
     
     a:hover {
-        color: #EA2027;
+        color: #ff4d4d;
     }
    
     a:active {

@@ -4,16 +4,16 @@ import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
   root: {
-    backgroundColor: 'transparent',
-    border: '1px solid #EA2027',
+    backgroundColor: '#ff4d4d',
+    border: '1px solid #fffffff',
     borderRadius: 50,
-    color: '#EA2027',
+    color: 'white',
     height: 48,
     padding: '30px',
     width: 300,
     fontFamily: 'Roboto',
     fontWeight: '300',
-    fontSize: '1.02em'
+    fontSize: '1.02em',
   },
 });
 
