@@ -26,7 +26,7 @@ export default function ImageAvatars() {
 
   return (
     <div className={classes.root}>
-      <Avatar alt="Rodrigo" src={image} className={classes.large} style={{border:'0px solid white'}} />
+      <Avatar alt="Rodrigo" src={image} className={classes.large} style={{border:'2px solid #eb4d4b'}} />
     </div>
   );
 }
