@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
   root: {
-    backgroundColor: 'transparent',
+    backgroundColor: '#eb4d4b',
     border: '1px solid white',
     borderRadius: 50,
     color: 'white',

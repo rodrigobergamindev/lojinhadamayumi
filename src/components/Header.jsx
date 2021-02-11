@@ -53,8 +53,7 @@ export default function Header() {
                 </div>
 
                 <footer>
-                    POR BEATRIZ MAYUMI YASHIKI<br></br>
-                    TODOS OS DIREITOS RESERVADOS ®
+                    
                 </footer>
             </ContainerHeader>
 

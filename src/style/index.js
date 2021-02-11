@@ -19,7 +19,7 @@ const ContainerHeader = styled(Container)`
 
     margin-top: 50px;
     font-size: 1.1em;
-    color:white;
+    color:#eb4d4b;
     text-align: center;
     font-family: 'Jaldi', sans-serif;
     flex-direction:column;
@@ -48,7 +48,7 @@ const ContainerHeader = styled(Container)`
         margin-top: 40px;
         font-size: 0.6em;
         font-family: 'Roboto', serif;
-        color: white;
+        color: #eb4d4b;
     }
 
     a:visited {

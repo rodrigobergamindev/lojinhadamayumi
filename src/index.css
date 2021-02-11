@@ -17,6 +17,7 @@
 
 
 html, body {
-  background-color:#ff5252;
+  background-image: url('../src/assets/fundo.jpg');
+  background-repeat: no-repeat, repeat;
 }
 
