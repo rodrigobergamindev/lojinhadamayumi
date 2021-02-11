@@ -18,5 +18,9 @@
 
 html, body {
   background-image: url('../src/assets/fundo.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
