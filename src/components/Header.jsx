@@ -26,7 +26,7 @@ export default function Header() {
     const urlCatalogoPRATA = 'https://drive.google.com/file/d/1lpEPu9i02b75BkZebPlw9sLShA484Brl/view?usp=sharing'
     const urlCatalogoROUPA = 'https://drive.google.com/file/d/1wmLx6eWKOSlaUwF7LJF7FBVJhzAV1F_m/view?usp=sharing'
     const urlCatalogoARGOLA = 'https://drive.google.com/file/d/1oikyEFrQDoqehJ8dKRUngY1Avu53r0nb/view?usp=sharing'
-    const urlWhatsApp = 'https://api.whatsapp.com/send?phone=5511983478844&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20pe%C3%A7as%20da%20loja'
+    const urlWhatsApp = 'https://api.whatsapp.com/send?phone=551129639226&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20pe%C3%A7as%20da%20loja'
     const urlFace = 'https://www.facebook.com/lojinhadamayumi/'
 
 
@@ -47,6 +47,7 @@ export default function Header() {
                     <li><a href={urlCatalogoROUPA} target="_blank"><Button text={"ROUPAS"} icon={<AccessibilityIcon className={classes.root}></AccessibilityIcon>}></Button></a></li>
                     <li><a href={urlInsta} target="_blank"><Button text={"INSTAGRAM"} icon={<InstagramIcon className={classes.root}></InstagramIcon>}></Button></a></li>
                     <li><a href={urlFace} target="_blank"><Button text={"FACEBOOK"} icon={<FacebookIcon className={classes.root}></FacebookIcon>}></Button></a></li>
+                    <li><a href={urlWhatsApp} target="_blank"><Button text={"FAÇA SEU PEDIDO"} icon={<WhatsAppIcon className={classes.root}></WhatsAppIcon>}></Button></a></li>
                 </ul>
 
                 </div>
