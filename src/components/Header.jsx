@@ -41,13 +41,12 @@ export default function Header() {
                 <p>Loja de roupas e acessórios</p>
 
                 <ul>
-                    <li><a href={urlInsta} target="_blank"><Button text={"INSTAGRAM"} icon={<InstagramIcon className={classes.root}></InstagramIcon>}></Button></a></li>
-                    <li><a href={urlFace} target="_blank"><Button text={"FACEBOOK"} icon={<FacebookIcon className={classes.root}></FacebookIcon>}></Button></a></li>
                     <li><a href={urlCatalogoPRATA} target="_blank"><Button text={"PEÇAS EM PRATA"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
                     <li><a href={urlCatalogoACO} target="_blank"><Button text={"PEÇAS EM AÇO"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
                     <li><a href={urlCatalogoARGOLA} target="_blank"><Button text={"ARGOLAS"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
                     <li><a href={urlCatalogoROUPA} target="_blank"><Button text={"ROUPAS"} icon={<AccessibilityIcon className={classes.root}></AccessibilityIcon>}></Button></a></li>
-                    <li><a href={urlWhatsApp} target="_blank"><Button text={"FAÇA SEU PEDIDO"} icon={<WhatsAppIcon className={classes.root}></WhatsAppIcon>}></Button></a></li>
+                    <li><a href={urlInsta} target="_blank"><Button text={"INSTAGRAM"} icon={<InstagramIcon className={classes.root}></InstagramIcon>}></Button></a></li>
+                    <li><a href={urlFace} target="_blank"><Button text={"FACEBOOK"} icon={<FacebookIcon className={classes.root}></FacebookIcon>}></Button></a></li>
                 </ul>
 
                 </div>
