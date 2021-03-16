@@ -23,7 +23,7 @@ export default function Header() {
     const classes = useStyles();
     const urlInsta = 'https://www.instagram.com/lojinha_da_mayumi/'
     const urlCatalogoACO = 'https://drive.google.com/file/d/1AFcbE7RGP4XALwh0DYl3MNxwxJrgZrkR/view?usp=sharing'
-    const urlCatalogoPRATA = 'https://drive.google.com/file/d/1uzM35PgU9DR3s6sM7__rqiIdH4xwvbAi/view?usp=sharing'
+    const urlCatalogoPRATA = 'https://drive.google.com/file/d/1p5YbznXBYVHumVYzNfXUk5khe2H2pgly/view?usp=sharing'
     const urlCatalogoROUPA = 'https://drive.google.com/file/d/1x-xN60fPiSNUAunsi9xWMep5kKpkBzHY/view?usp=sharing'
     const urlCatalogoARGOLA = 'https://drive.google.com/file/d/1oikyEFrQDoqehJ8dKRUngY1Avu53r0nb/view?usp=sharing'
     const urlWhatsApp = 'https://api.whatsapp.com/send?phone=551129639226&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20pe%C3%A7as%20da%20loja'
@@ -38,7 +38,7 @@ export default function Header() {
                 <div>
 
                 <h1>LOJINHA DA MAYUMI</h1>
-                <p>IRASAHIMASE!</p>
+                <p>Irashaimase</p>
 
                 <ul>
                     <li><a href={urlCatalogoPRATA} target="_blank"><Button text={"PEÇAS EM PRATA"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
