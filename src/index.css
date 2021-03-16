@@ -17,9 +17,7 @@
 
 
 html, body {
-  background-image: url('../src/assets/fundo.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-color: white;
+  
 }
 

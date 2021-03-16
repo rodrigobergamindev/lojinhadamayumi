@@ -55,13 +55,6 @@ const ContainerHeader = styled(Container)`
         color: white;
     }
     
-    a:hover {
-        color: white;
-    }
-   
-    a:active {
-        color: white;
-    }
 `
 
 

@@ -4,15 +4,15 @@ import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
   root: {
-    backgroundColor: '#eb4d4b',
-    border: '1px solid white',
+    backgroundColor: 'white',
+    border: '1px solid #eb4d4b',
     borderRadius: 50,
-    color: 'white',
+    color: '#eb4d4b',
     height: 48,
     padding: '30px',
     width: 300,
     fontFamily: 'Roboto',
-    fontWeight: '300',
+    fontWeight: '400',
     fontSize: '1.02em',
   },
 });
