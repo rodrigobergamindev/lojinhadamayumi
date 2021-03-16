@@ -38,7 +38,7 @@ export default function Header() {
                 <div>
 
                 <h1>LOJINHA DA MAYUMI</h1>
-                <p>Irashaimase</p>
+                <p>Irashaimase ⛩</p>
 
                 <ul>
                     <li><a href={urlCatalogoPRATA} target="_blank"><Button text={"PEÇAS EM PRATA"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
