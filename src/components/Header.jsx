@@ -22,8 +22,8 @@ const useStyles = makeStyles({
 export default function Header() {
     const classes = useStyles();
     const urlInsta = 'https://www.instagram.com/lojinha_da_mayumi/'
-    const urlCatalogoACO = 'https://drive.google.com/file/d/1xBTYjcoIs6DKSzu98YlXEC5CWMV0itdO/view?usp=sharing'
-    const urlCatalogoPRATA = 'https://drive.google.com/file/d/166LGqx06MAFNQ4514DqMSiGCSdk4nknc/view?usp=sharing'
+    const urlCatalogoACO = 'https://drive.google.com/file/d/1BmHGddpsmK7-sj1QUR1yIx7K4MAxaydG/view?usp=sharing'
+    const urlCatalogoPRATA = 'https://drive.google.com/file/d/1XQvXmXDQyI7eiLyCesmADNwY7qydfKUs/view?usp=sharing'
     const urlCatalogoROUPA = 'https://drive.google.com/file/d/1x-xN60fPiSNUAunsi9xWMep5kKpkBzHY/view?usp=sharing'
     const urlCatalogoARGOLA = 'https://drive.google.com/file/d/1oikyEFrQDoqehJ8dKRUngY1Avu53r0nb/view?usp=sharing'
     const urlWhatsApp = 'https://api.whatsapp.com/send?phone=551129639226&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20pe%C3%A7as%20da%20loja'
