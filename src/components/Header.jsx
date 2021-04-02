@@ -22,8 +22,8 @@ const useStyles = makeStyles({
 export default function Header() {
     const classes = useStyles();
     const urlInsta = 'https://www.instagram.com/lojinha_da_mayumi/'
-    const urlCatalogoACO = 'https://drive.google.com/file/d/1bpDrk3rNRMjPty_9RFzCaajkD4651ZsI/view?usp=sharing'
-    const urlCatalogoPRATA = 'https://drive.google.com/file/d/1MiFEs3gVmucHNPLMMO4PPev0SyFgAAKx/view?usp=sharing'
+    const urlCatalogoACO = 'https://drive.google.com/file/d/1odm3PABSKZoxDQkLNWYMJHWEnBIIjoDe/view?usp=sharing'
+    const urlCatalogoPRATA = 'https://drive.google.com/file/d/1AiK4VbWO_r-Xxbsyry48oA_nJhXKIibg/view?usp=sharing'
     const urlCatalogoROUPA = 'https://drive.google.com/file/d/1x-xN60fPiSNUAunsi9xWMep5kKpkBzHY/view?usp=sharing'
     const urlCatalogoARGOLA = 'https://drive.google.com/file/d/1oikyEFrQDoqehJ8dKRUngY1Avu53r0nb/view?usp=sharing'
     const urlCatalogoNIQUEL = 'https://drive.google.com/file/d/1Eb4PC-lSSLuEBAJt7k4qAC7QX2HlXJTs/view?usp=sharing'
