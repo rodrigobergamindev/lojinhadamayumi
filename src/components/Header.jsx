@@ -24,7 +24,6 @@ export default function Header() {
     const urlInsta = 'https://www.instagram.com/lojinha_da_mayumi/'
     const urlCatalogoACO = 'https://drive.google.com/file/d/1odm3PABSKZoxDQkLNWYMJHWEnBIIjoDe/view?usp=sharing'
     const urlCatalogoPRATA = 'https://drive.google.com/file/d/1AiK4VbWO_r-Xxbsyry48oA_nJhXKIibg/view?usp=sharing'
-    const urlCatalogoROUPA = 'https://drive.google.com/file/d/1x-xN60fPiSNUAunsi9xWMep5kKpkBzHY/view?usp=sharing'
     const urlCatalogoARGOLA = 'https://drive.google.com/file/d/1oikyEFrQDoqehJ8dKRUngY1Avu53r0nb/view?usp=sharing'
     const urlCatalogoNIQUEL = 'https://drive.google.com/file/d/1Eb4PC-lSSLuEBAJt7k4qAC7QX2HlXJTs/view?usp=sharing'
     const urlWhatsApp = 'https://api.whatsapp.com/send?phone=551129639226&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20pe%C3%A7as%20da%20loja'
@@ -46,7 +45,6 @@ export default function Header() {
                     <li><a href={urlCatalogoNIQUEL} target="_blank"><Button text={"PEÇAS EM NÍQUEL"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
                     <li><a href={urlCatalogoACO} target="_blank"><Button text={"PEÇAS EM AÇO"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
                     <li><a href={urlCatalogoARGOLA} target="_blank"><Button text={"ARGOLAS"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
-                    <li><a href={urlCatalogoROUPA} target="_blank"><Button text={"ROUPAS"} icon={<AccessibilityIcon className={classes.root}></AccessibilityIcon>}></Button></a></li>
                     <li><a href={urlInsta} target="_blank"><Button text={"INSTAGRAM"} icon={<InstagramIcon className={classes.root}></InstagramIcon>}></Button></a></li>
                     <li><a href={urlFace} target="_blank"><Button text={"FACEBOOK"} icon={<FacebookIcon className={classes.root}></FacebookIcon>}></Button></a></li>
                     <li><a href={urlWhatsApp} target="_blank"><Button text={"FAÇA SEU PEDIDO"} icon={<WhatsAppIcon className={classes.root}></WhatsAppIcon>}></Button></a></li>
