@@ -22,10 +22,10 @@ const useStyles = makeStyles({
 export default function Header() {
     const classes = useStyles();
     const urlInsta = 'https://www.instagram.com/lojinha_da_mayumi/'
-    const urlCatalogoACO = 'https://drive.google.com/file/d/1odm3PABSKZoxDQkLNWYMJHWEnBIIjoDe/view?usp=sharing'
-    const urlCatalogoPRATA = 'https://drive.google.com/file/d/1AiK4VbWO_r-Xxbsyry48oA_nJhXKIibg/view?usp=sharing'
-    const urlCatalogoARGOLA = 'https://drive.google.com/file/d/1oikyEFrQDoqehJ8dKRUngY1Avu53r0nb/view?usp=sharing'
-    const urlCatalogoNIQUEL = 'https://drive.google.com/file/d/1Eb4PC-lSSLuEBAJt7k4qAC7QX2HlXJTs/view?usp=sharing'
+    const urlCatalogoACO = 'https://drive.google.com/file/d/1fMgK1v0yg5Tq5zvZZPLRrspaiWjAw3dW/view?usp=sharing'
+    const urlCatalogoPRATA = 'https://drive.google.com/file/d/1iNT3_WQVdP1DDOpkqoUXLBkKxniBoWt2/view?usp=sharing'
+    const urlCatalogoARGOLA = 'https://drive.google.com/file/d/14Qts8zYV_0S_lbeXEzH02PD1iXfdXQZm/view?usp=sharing'
+    const urlCatalogoNIQUEL = 'https://drive.google.com/file/d/1K1uLpHKNHYIHuVR7TkrNcG-p8J-w8bU0/view?usp=sharing'
     const urlWhatsApp = 'https://api.whatsapp.com/send?phone=551129639226&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20pe%C3%A7as%20da%20loja'
     const urlFace = 'https://www.facebook.com/lojinhadamayumi/'
 
