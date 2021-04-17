@@ -25,7 +25,7 @@ export default function Header() {
     const urlCatalogoACO = 'https://drive.google.com/file/d/1nwG4QHDQ33SaFsbRebDCxjkRSwMl7560/view?usp=sharing'
     const urlCatalogoPRATA = 'https://drive.google.com/file/d/1-NqtfULA2wnEKsqOUHLsPnaO5J528pl3/view?usp=sharing'
     const urlCatalogoARGOLA = 'https://drive.google.com/file/d/14Qts8zYV_0S_lbeXEzH02PD1iXfdXQZm/view?usp=sharing'
-    const urlCatalogoNIQUEL = 'https://drive.google.com/file/d/1K1uLpHKNHYIHuVR7TkrNcG-p8J-w8bU0/view?usp=sharing'
+    const urlCatalogoNIQUEL = 'https://drive.google.com/file/d/1XhvnZYioEl-cDv3uae9afeu5IP2VZAj4/view?usp=sharing'
     const urlWhatsApp = 'https://api.whatsapp.com/send?phone=551129639226&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20pe%C3%A7as%20da%20loja'
     const urlFace = 'https://www.facebook.com/lojinhadamayumi/'
 
