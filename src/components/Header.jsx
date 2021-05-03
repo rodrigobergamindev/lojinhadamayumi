@@ -22,10 +22,12 @@ const useStyles = makeStyles({
 export default function Header() {
     const classes = useStyles();
     const urlInsta = 'https://www.instagram.com/lojinha_da_mayumi/'
-    const urlCatalogoACO = 'https://drive.google.com/file/d/1FZz6UR_mkCuYffCA0GcT4ERdrIXL40KQ/view?usp=sharing'
-    const urlCatalogoPRATA = 'https://drive.google.com/file/d/1FtwuMNPO8kOr3nYPrd7HpSY4iZ4etsaS/view?usp=sharing'
+    const urlCatalogoACO = 'https://drive.google.com/file/d/1sEm_fs-vhWRqGvucL1D5l0I5QQ2tRZxk/view?usp=sharing'
+    const urlCatalogoPRATA = 'https://drive.google.com/file/d/1tZl7ivIB4avusPIcPFL4H_IbReRmvrFd/view?usp=sharing'
     const urlCatalogoARGOLA = 'https://drive.google.com/file/d/14Qts8zYV_0S_lbeXEzH02PD1iXfdXQZm/view?usp=sharing'
-    const urlCatalogoNIQUEL = 'https://drive.google.com/file/d/194086BPzoxEFubbf5YDbKtpeMZtkFZIi/view?usp=sharing'
+    const urlCatalogoNIQUEL = 'https://drive.google.com/file/d/1GVhd2IACnuUf6IqwxZTSdLHw-YTegRVG/view?usp=sharing'
+    const urlPulseiras = 'https://drive.google.com/file/d/1Au_1vcOvM_DSm686KKpyBsvuuAg93qyY/view?usp=sharing'
+    const urlMuranos = 'https://drive.google.com/file/d/1WEDmwG9UwfQn3B5OJb8X6gKewbQ08W-v/view?usp=sharing'
     const urlWhatsApp = 'https://api.whatsapp.com/send?phone=551129639226&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20pe%C3%A7as%20da%20loja'
     const urlFace = 'https://www.facebook.com/lojinhadamayumi/'
 
@@ -41,9 +43,11 @@ export default function Header() {
                 <p>Irashaimase ⛩</p>
 
                 <ul>
-                    <li><a href={urlCatalogoPRATA} target="_blank"><Button text={"PEÇAS BANHADAS"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
-                    <li><a href={urlCatalogoNIQUEL} target="_blank"><Button text={"PEÇAS EM NÍQUEL"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
-                    <li><a href={urlCatalogoACO} target="_blank"><Button text={"PEÇAS EM AÇO"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
+                    <li><a href={urlCatalogoPRATA} target="_blank"><Button text={"BERLOQUES BANHADOS"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
+                    <li><a href={urlCatalogoNIQUEL} target="_blank"><Button text={"BERLOQUES EM NÍQUEL"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
+                    <li><a href={urlCatalogoACO} target="_blank"><Button text={"BERLOQUES ENVERNIZADOS"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
+                    <li><a href={urlPulseiras} target="_blank"><Button text={"PULSEIRAS & TRAVAS"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
+                    <li><a href={urlMuranos} target="_blank"><Button text={"MURANOS"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
                     <li><a href={urlCatalogoARGOLA} target="_blank"><Button text={"ARGOLAS"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
                     <li><a href={urlInsta} target="_blank"><Button text={"INSTAGRAM"} icon={<InstagramIcon className={classes.root}></InstagramIcon>}></Button></a></li>
                     <li><a href={urlFace} target="_blank"><Button text={"FACEBOOK"} icon={<FacebookIcon className={classes.root}></FacebookIcon>}></Button></a></li>
