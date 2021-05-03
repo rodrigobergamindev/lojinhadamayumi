@@ -33,7 +33,6 @@ export default function Header() {
 
 
     return (
-        <Container>
 
             <ContainerHeader>
                 <Avatar/>
@@ -49,9 +48,9 @@ export default function Header() {
                     <li><a href={urlPulseiras} target="_blank"><Button text={"PULSEIRAS & TRAVAS"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
                     <li><a href={urlMuranos} target="_blank"><Button text={"MURANOS"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
                     <li><a href={urlCatalogoARGOLA} target="_blank"><Button text={"ARGOLAS"} icon={<MenuBookIcon className={classes.root}></MenuBookIcon>}></Button></a></li>
+                    <li><a href={urlWhatsApp} target="_blank"><Button text={"FAÇA SEU PEDIDO"} icon={<WhatsAppIcon className={classes.root}></WhatsAppIcon>}></Button></a></li>
                     <li><a href={urlInsta} target="_blank"><Button text={"INSTAGRAM"} icon={<InstagramIcon className={classes.root}></InstagramIcon>}></Button></a></li>
                     <li><a href={urlFace} target="_blank"><Button text={"FACEBOOK"} icon={<FacebookIcon className={classes.root}></FacebookIcon>}></Button></a></li>
-                    <li><a href={urlWhatsApp} target="_blank"><Button text={"FAÇA SEU PEDIDO"} icon={<WhatsAppIcon className={classes.root}></WhatsAppIcon>}></Button></a></li>
                 </ul>
 
                 </div>
@@ -61,6 +60,5 @@ export default function Header() {
                 </footer>
             </ContainerHeader>
 
-        </Container>
     )
 }

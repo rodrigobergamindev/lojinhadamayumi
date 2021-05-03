@@ -33,7 +33,7 @@ const ContainerHeader = styled(Container)`
         color: white,
         height: 48,
         padding: 30px,
-        width: 350,
+        width: 500px,
         font-family: Roboto,
         font-weight: 300,
         fontSize: 1.09em

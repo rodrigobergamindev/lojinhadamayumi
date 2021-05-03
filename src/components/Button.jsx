@@ -10,7 +10,7 @@ const useStyles = makeStyles({
     color: '#eb4d4b',
     height: 48,
     padding: '30px',
-    width: 300,
+    width: 345,
     fontFamily: 'Roboto',
     fontWeight: '400',
     fontSize: '1.02em',
