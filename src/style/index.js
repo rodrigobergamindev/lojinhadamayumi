@@ -11,6 +11,40 @@ const Container = styled.div`
 
 `
 
+const Footer = styled(Container)`
+
+    color: white;
+    flex-direction: column;
+    margin-top: 90px;
+    flex-wrap: nowrap;
+    background-color: #eb4d4b;
+
+    h1 {
+        font-size: 1.2em;
+        margin-top: 20px;
+    }
+
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 45px;
+    }
+
+    li {
+        padding: 20px;
+    }
+
+
+`
+
+
+
 const ContainerHeader = styled(Container)`  
     display:flex;
     align-items: center;
@@ -58,4 +92,4 @@ const ContainerHeader = styled(Container)`
 `
 
 
-export {Container, ContainerHeader}
+export {Container, ContainerHeader, Footer}

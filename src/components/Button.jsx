@@ -4,20 +4,25 @@ import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
   root: {
-    backgroundColor: 'white',
-    border: '1px solid #eb4d4b',
-    borderRadius: 50,
-    color: '#eb4d4b',
-    height: 48,
+    backgroundColor: '#eb4d4b',
+    borderRadius: 5,
+    color: 'white',
+    maxHeight: 15,
     padding: '30px',
-    width: 345,
+    width: 330,
     fontFamily: 'Roboto',
     fontWeight: '400',
-    fontSize: '1.02em',
-  },
+    fontSize: '1.0em',
+    "&:hover": {
+      backgroundColor: '#eb4d4b',
+      opacity: 0.85,
+      transition: 'all 0.5s ease-out'
+    }
+  }
 });
 
 export default function Hook(props) {
   const classes = useStyles();
+
   return <Button className={classes.root}>{props.icon}{props.text}</Button>;
 }
