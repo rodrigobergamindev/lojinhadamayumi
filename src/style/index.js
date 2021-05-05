@@ -12,12 +12,14 @@ const Container = styled.div`
 `
 
 const Footer = styled(Container)`
-
-    color: white;
+    
+    font-family: Jaldi;
+    color: #121214;
     flex-direction: column;
     margin-top: 90px;
     flex-wrap: nowrap;
-    background-color: #eb4d4b;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.25), 0 14px 28px rgba(0,0,0,0.80);
+    width: 100%;
 
     h1 {
         font-size: 1.2em;
